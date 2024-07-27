@@ -1,0 +1,29 @@
+/* src/components/DropdownSection.css */
+
+.dropdown-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+  background-color: #f9f9f9; /* Light gray background to make elements stand out */
+  padding: 20px;
+  border-radius: 8px; /* Rounded corners for better appearance */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.dropdown-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dropdown-input {
+  accent-color: #007bff; /* Blue color for radio/checkbox */
+  cursor: pointer;
+}
+
+.dropdown-label {
+  font-size: 16px;
+  color: #333; /* Dark text color for contrast */
+}

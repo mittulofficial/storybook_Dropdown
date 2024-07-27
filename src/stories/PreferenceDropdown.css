@@ -1,0 +1,62 @@
+/* src/components/PreferenceDropdown.css */
+
+.preference-dropdown-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .preference-dropdown-button {
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .preference-dropdown-content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    max-width: 200px;
+    padding: 10px;
+  }
+  
+  .preference-dropdown-content.bottom {
+    top: 100%;
+    left: 0;
+  }
+  
+  .preference-dropdown-content.top {
+    bottom: 100%;
+    left: 0;
+  }
+  
+  .preference-dropdown-content.right {
+    top: 0;
+    left: 100%;
+  }
+  
+  .preference-dropdown-content.left {
+    top: 0;
+    right: 100%;
+  }
+  
+  .preference-dropdown-option {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .preference-dropdown-option:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .preference-dropdown-label {
+    font-size: 16px;
+    color: #333;
+  }
+  

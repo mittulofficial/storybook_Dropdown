@@ -1,0 +1,40 @@
+.validated-input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0;
+  }
+  
+  .validated-input {
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .validated-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+    outline: none;
+  }
+  
+  .validated-input.error {
+    border-color: #dc3545;
+  }
+  
+  .helper-text {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
+  .helper-text.success {
+    color: #28a745;
+  }
+  
+  .helper-text.info {
+    color: #17a2b8;
+  }
+  
